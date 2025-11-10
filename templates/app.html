@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Person Classifier</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='./dropzone.min.css') }}">
+    <link rel="stylesheet" href="../static/app.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-light justify-content-center">
+        <a class="navbar-brand" href="#">Sports Person Classifier</a>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+        <div class="col card-wrapper" data-player="axar_patel">
+                <div class="card border-0">
+                    <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                        <img class="w-100 h-100" src="{{ url_for('static', filename='images/axar.jpg') }}" alt="Card image cap">
+                    </div>
+                    <div class="card-body text-center mt-4 d-flex flex-column align-items-center">
+                        <h4 class="text-uppercase card-title">Axar Patel</h4>
+                        </p>
+                    </div>
+                </div>
+            </div>            
+            <div class="col card-wrapper" data-player="hardik_pandya">
+                    <div class="card border-0">
+                        <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                            <img class="w-100 h-100" src="{{ url_for('static', filename='images/hardik.jpg') }}" alt="Card image cap">
+                        </div>
+                        <div class="card-body text-center mt-4 d-flex flex-column align-items-center">
+                            <h4 class="text-uppercase card-title">Hardik Pandya</h4>
+                            </p>
+                        </div>
+                    </div>
+            </div>        
+            <div class="col card-wrapper" data-player="jasprit_bumrah">
+                <div class="card border-0">
+                    <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                        <img class="w-100 h-100" src="{{ url_for('static', filename='images/jasprit.jpg') }}" alt="Card image cap">
+                    </div>
+                    <div class="card-body text-center mt-4 d-flex flex-column align-items-center">
+                        <h4 class="text-uppercase card-title">Jasprit Bumrah</h4>
+                        </p>
+                    </div>
+                </div>
+            </div>          
+            <div class="col card-wrapper" data-player="k._l._rahul">
+                <div class="card border-0">
+                    <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                        <img class="w-100 h-100" src="{{ url_for('static', filename='images/kl.jpg') }}" alt="Card image cap">
+                    </div>
+                    <div class="card-body text-center mt-4 d-flex flex-column align-items-center">
+                        <h4 class="text-uppercase card-title">K L Rahul</h4>
+                        </p>
+                    </div>
+                </div>
+            </div>          
+            <div class="col card-wrapper" data-player="kuldeep_yadav">
+                <div class="card border-0">
+                    <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                        <img class="w-100 h-100" src="{{ url_for('static', filename='images/kuldeep.jpg') }}" alt="Card image cap">
+                    </div>
+                    <div class="card-body text-center mt-4 d-flex flex-column align-items-center">
+                        <h4 class="text-uppercase card-title">Kuldeep Yadav</h4>
+                        </p>
+                    </div>
+                </div>
+            </div>          
+            <div class="col card-wrapper" data-player="mohammed_shami">
+                <div class="card border-0">
+                    <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                        <img class="w-100 h-100" src="{{ url_for('static', filename='images/shami.jpg') }}" alt="Card image cap">
+                    </div>
+                    <div class="card-body text-center mt-4 d-flex flex-column align-items-center">
+                        <h4 class="text-uppercase card-title">Mohammed Shami</h4>
+                        </p>
+                    </div>
+                </div>
+            </div>     
+            
+            <div class="col card-wrapper" data-player="mohammed_siraj">
+                <div class="card border-0">
+                    <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                        <img class="w-100 h-100" src="{{ url_for('static', filename='images/siraj.jpg') }}" alt="Card image cap">
+                    </div>
+                    <div class="card-body text-center mt-4 d-flex flex-column align-items-center">
+                        <h4 class="text-uppercase card-title">Mohammed Siraj</h4>
+                        </p>
+                    </div>
+                </div>
+            </div>          
+            <div class="col card-wrapper" data-player="ravichandran_ashwin">
+                <div class="card border-0">
+                    <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                        <img class="w-100 h-100" src="{{ url_for('static', filename='images/ravichandran.jpg') }}" alt="Card image cap">
+                    </div>
+                    <div class="card-body text-center mt-4 d-flex flex-column align-items-center">
+                        <h4 class="text-uppercase card-title">Ravichandran Ashwin</h4>
+                        </p>
+                    </div>
+                </div>
+            </div>          
+        </div>
+        <div class="row">
+            <div class="col card-wrapper" data-player="ravindra_jadeja">
+                <div class="card border-0">
+                    <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                        <img class="w-100 h-100" src="{{ url_for('static', filename='images/ravindra.jpg') }}" alt="Card image cap">
+                    </div>
+                    <div class="card-body text-center mt-4 d-flex flex-column align-items-center">
+                        <h4 class="text-uppercase card-title">Ravindra Jadeja</h4>
+                        </p>
+                    </div>
+                </div>
+            </div>          
+            <div class="col card-wrapper" data-player="rishabh_pant">
+                <div class="card border-0">
+                    <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                        <img class="w-100 h-100" src="{{ url_for('static', filename='images/rishabh.jpg') }}" alt="Card image cap">
+                    </div>
+                    <div class="card-body text-center mt-4 d-flex flex-column align-items-center">
+                        <h4 class="text-uppercase card-title">Rishabh Pant</h4>
+                        </p>
+                    </div>
+                </div>
+            </div>          
+
+            <div class="col card-wrapper" data-player="rohit_sharma">
+                <div class="card border-0">
+                    <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                        <img class="w-100 h-100" src="{{ url_for('static', filename='images/rohit.jpg') }}" alt="Card image cap">
+                    </div>
+                    <div class="card-body text-center mt-4 d-flex flex-column align-items-center">
+                        <h4 class="text-uppercase card-title">Rohit Sharma</h4>
+                        </p>
+                    </div>
+                </div>
+            </div>      
+            <div class="col card-wrapper" data-player="shubhman_gill">
+                <div class="card border-0">
+                    <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                        <img class="w-100 h-100" src="{{ url_for('static', filename='images/gill.jpg') }}" alt="Card image cap">
+                    </div>
+                    <div class="card-body text-center mt-4 d-flex flex-column align-items-center">
+                        <h4 class="text-uppercase card-title">Shubhman Gill</h4>
+                        </p>
+                    </div>
+                </div>
+            </div>      
+            <div class="col card-wrapper" data-player="suryakumar_yadav">
+                <div class="card border-0">
+                    <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                        <img class="w-100 h-100" src="{{ url_for('static', filename='images/surya.jpg') }}" alt="Card image cap">
+                    </div>
+                    <div class="card-body text-center mt-4 d-flex flex-column align-items-center">
+                        <h4 class="text-uppercase card-title">Surya Kumar Yadav</h4>
+                        </p>
+                    </div>
+                </div>
+            </div>      
+            
+
+            <div class="col card-wrapper" data-player="virat_kohli">
+                <div class="card border-0">
+                    <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                        <img class="w-100 h-100" src="{{ url_for('static', filename='images/kohli.jpg') }}" alt="Card image cap">
+                    </div>
+                    <div class="card-body text-center mt-4 d-flex flex-column align-items-center">
+                        <h4 class="text-uppercase card-title">Virat Kohli</h4>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col card-wrapper" data-player="yuzvendra_chahal">
+                <div class="card border-0">
+                    <div class="position-relative rounded-circle overflow-hidden mx-auto custom-circle-image">
+                        <img class="w-100 h-100" src="{{ url_for('static', filename='images/yuzi.jpg') }}" alt="Card image cap">
+                    </div>
+                    <div class="card-body text-center mt-4 d-flex flex-column align-items-center">
+                        <h4 class="text-uppercase card-title">Yuzvendra Chahal</h4>
+                        </p>
+                    </div>
+                </div>
+            </div>   
+
+        </div>
+
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="row">
+                    <div class="col-12 mx-auto">
+                        <form action="/file-upload" class="dropzone" id="dropzone">
+                            <div class="dz-message needsclick">
+                                <img src="{{ url_for('static', filename='./images/upload.png') }}" width="50vw" height="50vw"><br>
+                                <span class="note needsclick">Drop files here or click to upload</span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-3 mx-auto">
+                        <button id="submitBtn" type="button" class="btn btn-success">Classify</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-sm-8 error" id="error" >
+                <p>Can't classify image. Classifier was not able to detect face and two eyes properly</p>    
+            </div>
+
+            <div class="col-sm-4" id="resultHolder">
+                
+            </div>
+            
+        </div>
+
+    </div>
+
+</body>
+<!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script src="{{url_for('static',filename='dropzone.min.js')}}"></script>
+<script src="{{url_for('static',filename='app.js')}}"></script>
+</html>
